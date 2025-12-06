@@ -33,21 +33,16 @@ public class User {
     @Column(nullable = false)
     private LocalDateTime updatedAt = LocalDateTime.now();
 
-	public User() {
-		super();
-		// TODO Auto-generated constructor stub
-	}
-
-	public User(String username, String email, String password, Role role, LocalDateTime createdAt,
-			LocalDateTime updatedAt) {
-		super();
-		this.username = username;
-		this.email = email;
-		this.password = password;
-		this.role = role;
-		this.createdAt = createdAt;
-		this.updatedAt = updatedAt;
-	}
+//	public User(String username, String email, String password, Role role, LocalDateTime createdAt,
+//			LocalDateTime updatedAt) {
+//		super();
+//		this.username = username;
+//		this.email = email;
+//		this.password = password;
+//		this.role = role;
+//		this.createdAt = createdAt;
+//		this.updatedAt = updatedAt;
+//	}
 
 	public Integer getUserId() {
 		return userId;
